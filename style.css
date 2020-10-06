@@ -1,0 +1,92 @@
+/*Selector {
+	Property: value;
+}*/
+
+
+body {
+	line-height: 25px;
+	font-family: 'Arvo', serif;
+	background-image: url(background.jpg);
+	background-size: contain;
+	background-attachment: fixed;
+	background-repeat: repeat;
+}
+
+
+h1 {
+	color: white;
+	text-align:center;
+	padding-top: 20px;
+	font-size: 33px;
+	height: 40px;
+	background-color: #A54DE1;
+	cursor: pointer;
+	box-shadow: 4px 4px 5px #888888;
+}
+
+h2 {
+	color: #9400D3;
+	text-align: center;
+	border: 4px ridge #A54DE1;
+	padding: 10px 4px 10px 4px;
+	font-size: 25px;
+	font-style: bold;
+}
+
+p, form {
+	color:  #4B0082;
+	line-height: 30px;
+	font-size: 15px;
+}
+
+img {
+	transition: 1s;
+}
+
+img:hover {
+	transform: scale(1.5);
+}
+
+hr {
+	border: 5px #A54DE1;
+}
+
+div {
+	column-count: 2;
+	column-rule: none;
+	column-gap: 40px;
+	column-span: all;
+}
+
+
+li {
+	color: #4B0082;
+	font-size: 16px;
+	list-style: 
+}
+
+.btn {
+	font-size: 16px;
+	font-weight: 750;
+	border-radius: 300px;
+}
+
+
+.btn-warning {
+	font-size: 16px;
+	font-family: 'Arvo', serif;
+	background-color: #EADFF2;
+	border-color: #EADFF2;
+	padding: 1rem 2rem;
+}
+
+.btn-primary {
+	font-size: 16px;
+	font-family: 'Arvo', serif;
+	background-color: #EADFF2;
+	border-color: #EADFF2;
+	padding: 0.5rem 1rem;
+
+.btn-x1 {
+	padding: 1rem 2rem;
+}
